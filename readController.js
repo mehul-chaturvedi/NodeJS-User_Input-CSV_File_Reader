@@ -6,7 +6,6 @@ var readFile = (title)=>{
     //splites string into array and stores in different index when it encounters " "
     title = title.split(" ");
     title.forEach((ele)=>{
-        console.log(ele, 'e')
         readELE(ele)
     })
     

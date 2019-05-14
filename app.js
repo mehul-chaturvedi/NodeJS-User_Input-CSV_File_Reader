@@ -11,9 +11,9 @@ function request() {
     clearInterval(run);
 
     // dynamically change the run interval
-    readline.question(`Enter time interval`, (time) => {
+    readline.question(`Enter time interval: `, (time) => {
         interval = parseInt(time) * 1000;
-        readline.question('Enter file name/s', (files) => {
+        readline.question('Enter file name/s: ', (files) => {
             var a = readController.readFile(files);
     
         })

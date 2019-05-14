@@ -10,7 +10,7 @@ It will install all the dependencies, although I have only used csvtojson.
 
 after npm install finishes run npm start.
 
-It will ask for time interval, give any number like 23
+Node app will run and it will ask for time interval, give any number like 23
 
 Then it will ask for file names you can give multiple or single file name its upto you
 
